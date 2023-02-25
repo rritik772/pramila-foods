@@ -1,17 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto+Slab:wght@400;500;900&family=Roboto:wght@400;500;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;800&family=Poppins:wght@700&display=swap');
 
-.roboto {
-  font-family: 'Roboto', sans-serif;
+.poppins {
+  font-family: 'Poppins', sans-serif;
 }
 
-.slab {
-  font-family: 'Roboto Slab', serif;
+.golos {
+  font-family: 'Golos Text', sans-serif;
 }
 
-.pacifico {
-  font-family: 'Pacifico', cursive;
+* {
+  font-family: 'Golos Text' !important;
 }
 
-body {
-  font-family: 'roboto';
+.logo-gradient {
+  background: #FFDE59;
+  background: linear-gradient(to bottom, #FFDE59 40%, #20963E 100%);
+  background-clip: inherit;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }

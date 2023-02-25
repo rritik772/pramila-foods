@@ -1,22 +1,37 @@
-import { Center, Header, Text } from "@mantine/core";
+import { Header, Paper, Text } from "@mantine/core";
+import Image from "next/image";
+
+import logo from "/asset/imgs/logo.svg";
 
 export default function HeaderNavbar() {
   return (
     <Header
       height={100}
       p='md'
-      ta='center'
       withBorder={false}
+      ta='center'
     >
-      <Text
-        color='yellow'
-        style={{
-          fontFamily: 'pacifico',
-          fontSize: 'xx-large',
-          textShadow: '1px 1px 3px rgb(36 37 47 / 25%)'
-        }}
-        span
-      >Pramila Foods</Text>
+      <Paper
+        ta='center'
+      >
+
+        <Image
+          src={logo}
+          alt="logo"
+          height="60"
+        />
+
+        <Text
+          ml="md"
+          className="logo-gradient"
+          style={{
+            fontFamily: 'poppins',
+            fontSize: 'xx-large',
+          }}
+          span
+        > Pramila Foods</Text>
+
+      </Paper>
     </Header>
   )
 }

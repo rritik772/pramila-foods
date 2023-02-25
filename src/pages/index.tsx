@@ -1,5 +1,7 @@
 import Head from 'next/head'
 import Product from '@/components/product/Product'
+import Hero from '@/components/hero/Hero'
+import Footer from '@/components/footer/Footer'
 
 export default function Home() {
   return (
@@ -11,7 +13,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <Product />
+        <Hero />
+        <Footer />
       </main>
     </>
   )
