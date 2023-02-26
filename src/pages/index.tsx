@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Product from '@/components/product/Product'
 import Hero from '@/components/hero/Hero'
 import Footer from '@/components/footer/Footer'
 

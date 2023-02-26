@@ -24,6 +24,7 @@ export default function HeaderNavbar() {
         <Text
           ml="md"
           className="logo-gradient"
+          fw={500}
           style={{
             fontFamily: 'poppins',
             fontSize: 'xx-large',

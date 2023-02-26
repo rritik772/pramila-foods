@@ -14,7 +14,7 @@ export default function Hero() {
 
   return (
     <Container>
-      <Paper p="md" shadow='lg'>
+      <Paper p="md" shadow='lg' withBorder>
         <SimpleGrid
           cols={2}
           spacing='lg'
@@ -69,6 +69,8 @@ export default function Hero() {
             <Button
               mt='lg'
               variant="gradient"
+              component="a"
+              href='/order'
             >Order Now!</Button>
           </div>
 
