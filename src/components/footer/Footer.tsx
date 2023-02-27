@@ -1,5 +1,5 @@
 import { ActionIcon, Anchor, Container, Flex, Paper, SimpleGrid, Text } from "@mantine/core";
-import { IconBrandFacebook, IconBrandInstagram, IconBrandTwitter, IconBrandYoutube } from "@tabler/icons-react";
+import { IconBrandFacebook, IconBrandInstagram, IconBrandTwitter, IconBrandWhatsapp, IconBrandYoutube } from "@tabler/icons-react";
 
 export default function Footer() {
   return (
@@ -18,8 +18,8 @@ export default function Footer() {
             gap='3'
           >
             <Text fw={500} mb={10}>Contact Us</Text>
-            <Anchor href="mailto:someone@gmail.com" target="_blank">Email: someone@gmail.com</Anchor>
-            <Anchor href="ph:12345678" target="_blank">Phone: 12345678</Anchor>
+            <Anchor href="mailto:pramilafood@gmail.com" target="_blank">Email: pramilafood@gmail.com</Anchor>
+            <Anchor href="ph:8240120714" target="_blank">Phone: 8240120714</Anchor>
           </Flex>
 
           <div>
@@ -28,20 +28,16 @@ export default function Footer() {
             <Flex
               gap={10}
             >
-              <ActionIcon variant="light" color='blue' component="a" href="https://www.facebook.com" target='_blank'>
+              <ActionIcon variant="light" color='blue' component="a" href="https://www.facebook.com/profile.php?id=100090373863463&mibextid=ZbWKwL" target='_blank'>
                 <IconBrandFacebook size={20} />
               </ActionIcon>
 
-              <ActionIcon variant="gradient" gradient={{ from: 'red', to: 'blue', deg:180 }} component="a" href="https://www.facebook.com" target='_blank'>
+              <ActionIcon variant="gradient" gradient={{ from: 'red', to: 'blue', deg:180 }} component="a" href="https://instagram.com/pramilafood?igshid=ZDdkNTZiNTM=" target='_blank'>
                 <IconBrandInstagram size={20} />
               </ActionIcon>
 
-              <ActionIcon variant="filled" color='blue' component="a" href="https://www.facebook.com" target='_blank'>
-                <IconBrandTwitter size={20} />
-              </ActionIcon>
-
-              <ActionIcon variant="filled" color='red' component="a" href="https://www.facebook.com" target='_blank'>
-                <IconBrandYoutube size={20} />
+              <ActionIcon variant="filled" color='blue' component="a" href="https://wa.me/c/918240120714" target='_blank'>
+                <IconBrandWhatsapp size={20} />
               </ActionIcon>
 
             </Flex>
